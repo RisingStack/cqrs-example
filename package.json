@@ -1,0 +1,31 @@
+{
+  "name": "cqrs-example",
+  "version": "1.0.0",
+  "description": "CQRS Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "lint": "eslint account accountLog app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RisingStack/cqrs-example.git"
+  },
+  "author": "RisingStack, Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RisingStack/cqrs-example/issues"
+  },
+  "homepage": "https://github.com/RisingStack/cqrs-example#readme",
+  "devDependencies": {
+    "eslint": "3.12.2",
+    "eslint-config-airbnb-base": "11.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-promise": "3.4.0"
+  },
+  "dependencies": {
+    "lodash": "4.17.4",
+    "tortoise": "1.0.1"
+  }
+}
