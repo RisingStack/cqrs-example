@@ -31,5 +31,5 @@ Rename user:  { name: 'John Smith' }
 ```
 Running...
 User in user service database { id: 'aaa', name: 'John Smith', state: 'churn' }
-User in Reporting Database { name: 'John Smith'
+User in Reporting Database { name: 'John Smith' }
 ```
