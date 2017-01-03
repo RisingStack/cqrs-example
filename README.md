@@ -13,6 +13,8 @@ CQRS with Denormalizer example repo for the Node.js at Scale blog series
 npm start
 ```
 
+![CQRS example](https://cloud.githubusercontent.com/assets/1764512/21609284/d04c858c-d1c1-11e6-86e9-89797725bde8.png)
+
 In this example you can see how an imaginary user service emits change events.
 A denormalizer listens for these change events and stores a subset of the user *(name only)* in a Reporting Database for further client queries.
 
